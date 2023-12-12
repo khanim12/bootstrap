@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f8;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+nav .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+}
+nav .left a {
+  color: #262626;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+nav .left li:first-of-type a {
+  padding: 14px 24px;
+  border-radius: 8px;
+  background-color: #f1f1f3;
+}
+nav .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+nav .right button {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+}
+nav .right button:last-of-type {
+  background-color: #ff9500;
+  padding: 14px 34px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+nav .right img {
+  display: none;
+}
+/* NAV END  */
+/* unlock start */
+.unlock-container {
+  width: 70%;
+  margin: 70px auto;
+}
+.unlock-container .unlock {
+  background-color: white;
+  position: relative;
+  display: flex;
+  padding: 25px;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.unlock h1 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.unlock h1 span {
+  color: #ff9500;
+}
+.unlock-container h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #414143;
+  margin: 16px auto 6px;
+  line-height: 43px;
+  text-align: center;
+}
+.unlock-container p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.unlock img:first-of-type {
+  position: absolute;
+  top: -35px;
+  left: -30px;
+}
+.unlock-container .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.unlock-container .buttons button {
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 14px 20px;
+  border-radius: 6px;
+}
+.unlock-container button:first-of-type {
+  background-color: #ff9500;
+  color: white;
+}
+.unlock-container button:last-of-type {
+  background-color: white;
+}
+.app-container {
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.app-container .group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.app-container .group p {
+  font-size: 18px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.app-container div {
+  width: 68px;
+  height: 34px;
+}
+.app-container div img {
+  width: 100%;
+  height: 100%;
+}
+.bg-img {
+  background-image: url(../images/Container\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.item {
+  width: 30%;
+  padding: 0 30px;
+}
+.container2 .group {
+  width: 95%;
+}
+.container2 h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.container2 .group p {
+  width: 70%;
+  font-size: 15px;
+  font-weight: 400;
+}
+.container2 .group button {
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: white;
+}
+.container2 .group button a {
+  text-transform: capitalize;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container2 .item h2 {
+  text-align: right;
+  font-weight: 700;
+  line-height: 24px;
+}
+.container2 .item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.144px;
+}
+.container2 .item p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4c4c4c;
+}
+
+.container2 .buttons .button {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4c4c4d;
+  padding: 7px 18px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  text-transform: capitalize;
+}
+.container2 .card-body a {
+  background-color: #f8f8f8;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container2 .under-img p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.container2 .footer button {
+  background-color: #f7f7f8;
+  border: 1px solid #f1f1f3;
+  font-weight: 500;
+  padding: 15px 24px;
+  border-radius: 8px;
+
+}
+.price-container .card1{
+  background-color: #fcfcfd;
+}
+
+.price-container .card1 h3{
+  background-color: #fff9f0;
+  text-align: center;
+  border: 1px solid #ffeacc;
+  border-radius: 6px;
+  padding: 12px 22px;
+}
+.price-container .card1 > p{
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: center;
+  
+}
+.price-container  .card1 > p span{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+.price-container .card1 .features h4{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 25px 0;
+}
+.price-container .card1 .features .item{
+  border: 1px solid #f1f1f3;
+  padding: 14px;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+
+}
+.price-container .price-container .card1 .features .item:last-of-type{
+  margin-bottom: 0;
+}
+
+.card1 .features .item i{
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #fff4e5;
+}
+.price-container .card1 .features .itemx i{
+  background-color: white;
+  border: 1px solid #f1f1f3;
+}
+.price-container .card1 .features  button{
+  background-color: #ff9500;
+  border-radius: 0px 0px 8px 8px;
+  padding: 20px 24px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  border: none;
+  text-transform: capitalize;
+}
+.price-container .price-head .buttons{
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.price-container .price-head .buttons button{
+  border-radius: 6px;
+  padding: 14px 30px;
+  border: none;
+  text-transform: capitalize;
+
+
+}
+.price-head .buttons button:first-of-type{
+  background-color: #ff9500;
+
+  color: white;
+
+}
+.price-head .buttons button:last-of-type{
+  background-color: white;
+}
+
+
+.container-question .card1{
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f3;
+  background-color: white;
+}
+.container-question .card1 .item1 {
+  border-bottom: 1px solid #f1f1f3;
+}
+.container-question .card1 .item1 h3{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 24px;
+}
+.container-question .card1 .item1 i{
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #fff4e5;
+}
+.container-question .card1 .item2 {
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background-color: #f7f7f8;
+}
+.container-question .card1 .item2 h3{
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.container-question .card1 .item2 i{
+  padding: 14px;
+  border-radius: 100px;
+  background-color: white;
+}
+.container-question .card2 .item {
+  padding: 20px 50px;
+  border-radius: 12px;
+  border: 1px solid #f1f1f3;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+.container-question .card2 .item p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-question .card2 .item i{
+  padding: 14px;
+  border-radius: 6px;
+  background-color: #fff4e5;
+}
+footer{
+  background-color: white;
+  width: 100%;
+}
+footer .row{
+  width: 80%;
+  margin: auto;
+  padding: 70px 0 40px;
+  text-transform: capitalize;
+  border-bottom: 1px solid #747476;
+}
+footer .row .icon p{
+  font-size: 16px;
+font-weight: 500;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: lowercase;
+}
+footer .row .icons i{
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+  background-color: #f7f7f8;
+  margin-right: 10px;
+}

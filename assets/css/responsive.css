@@ -1,0 +1,30 @@
+@media (max-width:576px){
+    nav .left ul{
+        display: none;
+    }
+    nav .right  {
+        gap: 20px;
+    }
+    nav .right img{
+        display: block;
+    }
+    .unlock h1 {
+        font-size: 16px;
+    }
+    .app-container div img:nth-child(4){
+        display: none;
+    }
+    .app-container div img:nth-child(5){
+        display: none;
+    }
+    .app-container div img:nth-child(6){
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+
+    .unlock h1 {
+        font-size: 36px;
+    }
+}
